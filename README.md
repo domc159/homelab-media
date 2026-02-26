@@ -18,7 +18,7 @@ One-script self-hosted media stack for Ubuntu Server. Installs, configures, and 
 ## Quick Start
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/install_media.sh -o install_media.sh
+curl -fsSL https://raw.githubusercontent.com/domc159/homelab-media/main/install.sh -o install.sh
 sudo bash install.sh
 ```
 
