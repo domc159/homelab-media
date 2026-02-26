@@ -19,7 +19,7 @@ One-script self-hosted media stack for Ubuntu Server. Installs, configures, and 
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/install_media.sh -o install_media.sh
-sudo bash install_media.sh
+sudo bash install.sh
 ```
 
 The script installs Docker, creates data directories, generates `/home/homelab/.env`, writes `docker-compose.yml`, and starts all containers.
