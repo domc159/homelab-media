@@ -58,6 +58,7 @@ mkdir -p "$DATA"/{jellyfin,audiobookshelf,navidrome}
 mkdir -p "$DATA"/jellyfin/{config,cache}
 mkdir -p "$DATA"/audiobookshelf/{config,metadata}
 mkdir -p "$DATA"/navidrome/data
+chown 1000:1000 "$DATA"/navidrome/data
 mkdir -p "$SHARED"/{media,music,audiobooks}
 chmod -R 755 "$DATA" "$SHARED"
 log "Directories created"
